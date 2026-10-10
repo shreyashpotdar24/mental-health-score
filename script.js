@@ -1,6 +1,6 @@
 /* ===== Configuration ===== */
 // Change this URL when you deploy your FastAPI backend.
-const API_URL = "const API_URL = "https://mental-health-score-1-t58c.onrender.com";";
+const API_URL = "https://mental-health-score-1-t58c.onrender.com";
 const HISTORY_KEY = "mindscore_history";
 
 /* ===== Form schema: matches the FastAPI `studentdata` model exactly ===== */
