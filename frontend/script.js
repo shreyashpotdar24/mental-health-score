@@ -180,7 +180,7 @@ function renderHistory() {
   list.forEach((item, i) => {
     const tr = document.createElement("tr");
     if (i === 0) tr.className = "latest";
-    [new Date(item.date).toLocaleString(), item.score.toFixed(2), "Not provided by API"].forEach(t => {
+   [new Date(item.date).toLocaleString(), item.score.toFixed(2)].forEach(t => {
       const td = document.createElement("td"); td.textContent = t; tr.appendChild(td);
     });
     const td = document.createElement("td"), b = document.createElement("button");
